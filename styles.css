@@ -1,0 +1,75 @@
+:root {
+  --dark-bg: #1f2937;
+  --txt-main: #f9faf8;
+  --txt-secondary: #e5e7eb;
+  --button-color: #3882f6;
+  --info-header-txt: #1f2937;
+  --quote-bg: #e5e7eb;
+  --quote-txt: #1f2937;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header,
+.hero-section,
+footer {
+  background-color: var(--dark-bg);
+  color: var(--txt-main);
+}
+
+.header-logo {
+  font-size: 24px;
+}
+header ul {
+  font-size: 18px;
+  color: var(--txt-secondary);
+}
+
+.hero-container p {
+  color: var(--txt-secondary);
+}
+
+.quote-section {
+  background-color: var(--quote-bg);
+}
+
+.quote-section blockquote {
+  font-size: 36px;
+  color: var(--quote-txt);
+  font-style: italic;
+  font-weight: 300;
+}
+
+.quote-section p {
+  color: var(--info-header-txt);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+button,
+.cta {
+  background-color: var(--button-color);
+  color: var(--txt-main);
+}
+
+.cta p {
+  color: var(--txt-secondary);
+}

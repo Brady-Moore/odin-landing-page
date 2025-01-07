@@ -184,3 +184,20 @@ header ul {
   width: 150px;
   text-align: center;
 }
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.quote-section blockquote {
+  width: 700px;
+}
+
+.quote-section p {
+  text-align: right;
+  align-self: flex-end;
+}

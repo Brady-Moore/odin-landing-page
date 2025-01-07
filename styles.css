@@ -58,6 +58,15 @@ header ul {
   font-size: 18px;
 }
 
+.information-section h2 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.information-section p {
+  color: var(--quote-txt);
+}
+
 .quote-section {
   background-color: var(--quote-bg);
 }
@@ -144,4 +153,34 @@ header ul {
   display: flex;
   width: 400px;
   flex-wrap: wrap;
+}
+
+.information-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.information-section h2 {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.information-section .big-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 60px;
+  margin-bottom: 60px;
+}
+
+.information-section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information-section p {
+  width: 150px;
+  text-align: center;
 }

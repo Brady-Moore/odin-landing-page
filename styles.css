@@ -30,8 +30,6 @@ a {
 
 body {
   font-family: Roboto, sans-serif;
-  display: flex;
-  flex-direction: column;
 }
 
 header,
@@ -50,8 +48,14 @@ header ul {
   color: var(--txt-secondary);
 }
 
+.hero-container h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
 .hero-container p {
   color: var(--txt-secondary);
+  font-size: 18px;
 }
 
 .quote-section {
@@ -77,6 +81,13 @@ button,
   color: var(--txt-main);
 }
 
+button {
+  font-size: 18px;
+  padding: 8px 30px;
+  border-radius: 10px;
+  border: none;
+}
+
 .cta p {
   color: var(--txt-secondary);
 }
@@ -100,7 +111,10 @@ button,
 }
 
 /* FLEXBOX STYLING */
-
+body {
+  display: flex;
+  flex-direction: column;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -116,4 +130,18 @@ header ul {
   display: flex;
   gap: 1rem;
   margin-right: 8vw;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+  padding: 8em;
+}
+
+.hero-container {
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
 }

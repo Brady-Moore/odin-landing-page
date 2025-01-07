@@ -84,6 +84,10 @@ header ul {
   font-weight: 600;
 }
 
+.cta-container {
+  background-color: var(--button-color);
+}
+
 button,
 .cta {
   background-color: var(--button-color);
@@ -200,4 +204,24 @@ header ul {
 .quote-section p {
   text-align: right;
   align-self: flex-end;
+}
+
+.cta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 50px;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 40px 80px;
+  gap: 60px;
+}
+
+.cta-container button {
+  border: white solid 2px;
 }

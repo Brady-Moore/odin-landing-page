@@ -80,7 +80,7 @@ header ul {
 
 .quote-section p {
   color: var(--info-header-txt);
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -194,16 +194,17 @@ header ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 60px;
 }
 
 .quote-section blockquote {
-  width: 700px;
+  width: 790px;
 }
 
 .quote-section p {
   text-align: right;
   align-self: flex-end;
+  margin-right: 500px;
 }
 
 .cta-section {
@@ -224,4 +225,11 @@ header ul {
 
 .cta-container button {
   border: white solid 2px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
 }
